@@ -1,0 +1,4 @@
+CfengineSpec
+============
+
+ChefSpec for cfengine...
