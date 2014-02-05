@@ -1,4 +1,6 @@
-bundle common main
+bundle agent main
 {
-
+  files:
+    "hello-world.txt"
+      create => "true";
 }

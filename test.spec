@@ -4,6 +4,6 @@ describe 'my-promise' do
     output = `cf-agent --dry-run --verbose my-promise.cf`
     
     output.should_not include 'error'
-    output.should include "One promises executed for bundle 'main'"
+    output.should include "Promises kept in 'main' = 0"
   end
 end
