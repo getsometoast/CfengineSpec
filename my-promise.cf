@@ -1,4 +1,5 @@
 body common control
 {
   inputs  => { "test.cf" };
+  bundlesequence => { "main" };
 }
