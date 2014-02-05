@@ -1,11 +1,7 @@
 bundle agent main
 {
-#files:
-#   "/Users/jameslewis/work/CfengineSpec/hello-world.txt"
-#     create => "true";
-#
 
-files:
-  "/Users/jameslewis/work/CfengineSpec/test_plain"  # Path and name of the file we wish to create
-    create => "true";
+  files:
+    "/Users/jameslewis/work/CfengineSpec/hello-world.txt"  # Path and name of the file we wish to create
+      create => "true";
 }
