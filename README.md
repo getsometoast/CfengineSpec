@@ -18,3 +18,9 @@ Want the syntax to look something like this:
 - Cfengine.should install_package("python-dev")
 - Cfengine.should run_command("/usr/bin/lib/pip install newrelic_plugin_agent")
 
+Regarding implementation - could write a promise that outputs generic report statement for promise types like:
+
+- R: PACKAGE: INSTALLED: Installed package ssh.
+
+then, as long as I'm always using this promise, the cf-agent --dry-run output would be simple to parse to make assertions about.
+
